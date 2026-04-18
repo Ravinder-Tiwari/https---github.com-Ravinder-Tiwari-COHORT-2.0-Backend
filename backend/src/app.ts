@@ -15,8 +15,7 @@ app.use(express.static("./public"))
 app.get("/health", (req, res) => {
     
     res.status(200).json({ status: "ok" })
-})
-
+})  
 
 app.post("/response", async (req, res) => {
     const { input } = req.body
