@@ -6,7 +6,7 @@ import path from "path"
 
 const app = express()
 app.use(cors({
-    origin: "https://github-com-ravinder-tiwari-cohort.onrender.com",
+    origin: "https://https-github-com-ravinder-tiwari-cohort.onrender.com/",
     methods: ["GET", "POST"],
     credentials: true
 }))

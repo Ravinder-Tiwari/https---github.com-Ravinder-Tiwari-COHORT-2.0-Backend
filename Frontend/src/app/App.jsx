@@ -23,7 +23,7 @@ function App() {
   };
 
   async function fetchResponse(query) {
-    const response = await axios.post("https://github-com-ravinder-tiwari-cohort.onrender.com/response", {problem: query});
+    const response = await axios.post("https://https-github-com-ravinder-tiwari-cohort.onrender.com/response", {problem: query});
     return response.data ;
   }
 
