@@ -23,10 +23,8 @@ function App() {
   };
 
   async function fetchResponse(query) {
-    const response = await axios.post([
-      "https://aibattlearena1.onrender.com/response",
-      "http://localhost:3000/response"
-    ], {problem: query});
+    const response = await axios.post(
+      "https://aibattlearena1.onrender.com/response", {problem: query});
     return response.data ;
   }
 
