@@ -6,7 +6,9 @@ import path from "path"
 
 const app = express()
 app.use(cors({
-    origin: "https://aibattlearena1.onrender.com/",
+    origin: [
+        "https://aibattlearena1.onrender.com", 
+        "https://localhost:5173"],
     methods: ["GET", "POST"],
     credentials: true
 }))
@@ -19,6 +21,7 @@ app.get("/health", (req, res) => {
 
 app.post("/response", async (req, res) => {
     const { problem } = req.body
+    console.log(problem)
     const result = await useGraph(problem)
     res.status(200).json({
         message: "Response from graph",
