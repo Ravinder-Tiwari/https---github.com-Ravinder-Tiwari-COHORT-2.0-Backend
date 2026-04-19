@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="613" viewBox="0 0 255 613" role="img" aria-labelledby="title desc">
+  <title id="title">AI Battle Arena mobile preview</title>
+  <desc id="desc">Mobile preview of the AI Battle Arena interface showing a prompt, one solution, and judge evaluation.</desc>
+  <defs>
+    <style>
+      .bg { fill: #080d17; }
+      .card { fill: #111827; stroke: #202a3d; }
+      .panel { fill: #0d1524; }
+      .muted { fill: #8290aa; }
+      .text { fill: #f8fbff; font-family: Inter, Arial, sans-serif; }
+      .accent { fill: #756bff; }
+      .bubble { fill: #11102b; stroke: #28205e; }
+      .score { fill: #063936; stroke: #095a55; }
+      .rule { stroke: #1d2638; }
+      .small { font-size: 8px; letter-spacing: 4px; font-weight: 700; }
+      .body { font-size: 12px; }
+      .tiny { font-size: 8px; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="255" height="613"/>
+
+  <circle class="accent" cx="30" cy="29" r="3"/>
+  <text class="text" x="38" y="33" font-size="14" font-weight="700">
+    <tspan fill="#7f77ff">AI</tspan><tspan> Battle Arena</tspan>
+  </text>
+  <text class="muted" x="232" y="34" font-size="15">sun</text>
+
+  <rect class="bubble" x="93" y="79" width="173" height="38" rx="12"/>
+  <text class="text" x="110" y="102" font-size="11">Solution of 12 multiply by 20</text>
+
+  <rect class="card" x="11" y="150" width="244" height="412" rx="21"/>
+  <rect class="panel" x="11" y="234" width="244" height="119"/>
+  <rect class="panel" x="11" y="353" width="244" height="209"/>
+  <line class="rule" x1="11" y1="234" x2="255" y2="234"/>
+  <line class="rule" x1="11" y1="353" x2="255" y2="353"/>
+
+  <text class="accent small" x="34" y="181">PROBLEM ADDRESSED</text>
+  <text class="text body" x="32" y="207">Solution of 12 multiply by 20</text>
+
+  <circle fill="#182233" cx="44" cy="270" r="11"/>
+  <text class="muted tiny" x="37" y="273">One</text>
+  <text class="text" x="62" y="271" font-size="9" font-weight="700">SOLUTION ONE</text>
+  <text class="text body" x="33" y="312">
+    <tspan x="33" dy="0">The solution to (12 times 20) is: [12</tspan>
+    <tspan x="33" dy="18">times 20 = 240] undefined</tspan>
+  </text>
+
+  <text class="muted small" x="33" y="383">JUDGE EVALUATION</text>
+  <line class="rule" x1="119" y1="380" x2="244" y2="380"/>
+  <rect class="score" x="33" y="401" width="54" height="54" rx="9"/>
+  <text fill="#13d0ad" x="57" y="435" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24">9</text>
+  <text fill="#13d0ad" x="57" y="445" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7">/ 10</text>
+  <text class="muted" x="33" y="485" font-size="10" font-style="italic">
+    <tspan x="33" dy="0">The solution is correct and clearly stated. However,</tspan>
+    <tspan x="33" dy="17">it provides only the final result without any</tspan>
+    <tspan x="33" dy="17">intermediate steps or explanation of the method</tspan>
+    <tspan x="33" dy="17">used.</tspan>
+  </text>
+
+  <rect fill="#111827" stroke="#283149" x="11" y="552" width="244" height="40" rx="20"/>
+  <text class="muted" x="32" y="576" font-size="10">Describe your logical or structural problem...</text>
+  <circle fill="#3730a3" cx="242" cy="572" r="14"/>
+  <text class="text" x="242" y="576" text-anchor="middle" font-size="12">A</text>
+</svg>

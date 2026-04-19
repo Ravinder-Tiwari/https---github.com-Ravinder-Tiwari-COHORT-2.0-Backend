@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1283" height="768" viewBox="0 0 1283 768" role="img" aria-labelledby="title desc">
+  <title id="title">AI Battle Arena desktop preview</title>
+  <desc id="desc">Desktop preview of the AI Battle Arena interface showing two model solutions and judge scores side by side.</desc>
+  <defs>
+    <style>
+      .bg { fill: #080d17; }
+      .card { fill: #111827; stroke: #202a3d; }
+      .panel { fill: #0d1524; }
+      .muted { fill: #8290aa; }
+      .text { fill: #f8fbff; font-family: Inter, Arial, sans-serif; }
+      .accent { fill: #756bff; }
+      .bubble { fill: #11102b; stroke: #28205e; }
+      .score { fill: #063936; stroke: #095a55; }
+      .rule { stroke: #1d2638; }
+      .small { font-size: 8px; letter-spacing: 5px; font-weight: 700; }
+      .body { font-size: 12px; }
+      .tiny { font-size: 8px; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1283" height="768"/>
+  <line class="rule" x1="0" y1="44" x2="1283" y2="44"/>
+
+  <circle class="accent" cx="15" cy="13" r="3"/>
+  <text class="text" x="24" y="18" font-size="14" font-weight="700">
+    <tspan fill="#7f77ff">AI</tspan><tspan> Battle Arena</tspan>
+  </text>
+  <text class="muted" x="1254" y="19" font-size="14">sun</text>
+
+  <rect class="bubble" x="881" y="70" width="194" height="43" rx="14"/>
+  <text class="text" x="899" y="96" font-size="12" font-weight="600">Solution of 12 multiply by 20</text>
+
+  <rect class="card" x="210" y="150" width="865" height="474" rx="22"/>
+  <rect class="panel" x="210" y="258" width="865" height="216"/>
+  <rect class="panel" x="210" y="474" width="865" height="150"/>
+  <line class="rule" x1="210" y1="258" x2="1075" y2="258"/>
+  <line class="rule" x1="210" y1="474" x2="1075" y2="474"/>
+  <line class="rule" x1="642" y1="258" x2="642" y2="624"/>
+
+  <text class="accent small" x="241" y="190">PROBLEM ADDRESSED</text>
+  <text class="text body" x="241" y="219">Solution of 12 multiply by 20</text>
+
+  <circle fill="#182233" cx="254" cy="301" r="11"/>
+  <text class="muted tiny" x="247" y="304">One</text>
+  <text class="text" x="274" y="303" font-size="10" font-weight="700">SOLUTION ONE</text>
+  <text class="text body" x="241" y="348">
+    <tspan x="241" dy="0">The solution to (12 times 20) is: [12 times 20 = 240] undefined</tspan>
+  </text>
+
+  <circle fill="#182233" cx="685" cy="301" r="11"/>
+  <text class="muted tiny" x="679" y="304">Two</text>
+  <text class="text" x="704" y="303" font-size="10" font-weight="700">SOLUTION TWO</text>
+  <text class="text body" x="672" y="348">
+    <tspan x="672" dy="0">To solve the problem (12 times 20), follow these steps:</tspan>
+    <tspan x="672" dy="19" font-weight="700">Break down the multiplication:</tspan>
+    <tspan> 12 times 20 = 12 times (2 times</tspan>
+    <tspan x="672" dy="19">10)</tspan>
+    <tspan x="672" dy="19" font-weight="700">Multiply 12 by 2:</tspan>
+    <tspan> [12 times 2 = 24]</tspan>
+    <tspan x="672" dy="19" font-weight="700">Multiply the result by 10:</tspan>
+    <tspan> [24 times 10 = 240]</tspan>
+    <tspan x="672" dy="19" font-weight="700">Final Answer:</tspan>
+    <tspan> [boxed{240}] undefined</tspan>
+  </text>
+
+  <text class="muted small" x="241" y="512">JUDGE EVALUATION</text>
+  <line class="rule" x1="343" y1="509" x2="611" y2="509"/>
+  <rect class="score" x="241" y="534" width="68" height="59" rx="10"/>
+  <text fill="#13d0ad" x="275" y="567" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22">9</text>
+  <text fill="#13d0ad" x="275" y="578" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7">/ 10</text>
+  <text class="muted" x="320" y="544" font-size="11" font-style="italic">
+    <tspan x="320" dy="0">The solution is correct and clearly stated. However, it provides</tspan>
+    <tspan x="320" dy="17">only the final result without any intermediate steps or</tspan>
+    <tspan x="320" dy="17">explanation of the method used.</tspan>
+  </text>
+
+  <text class="muted small" x="672" y="512">JUDGE EVALUATION</text>
+  <line class="rule" x1="774" y1="509" x2="1045" y2="509"/>
+  <rect class="score" x="672" y="534" width="68" height="59" rx="10"/>
+  <text fill="#13d0ad" x="706" y="567" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22">10</text>
+  <text fill="#13d0ad" x="706" y="578" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7">/ 10</text>
+  <text class="muted" x="751" y="544" font-size="11" font-style="italic">
+    <tspan x="751" dy="0">The solution is correct and provides a clear step-by-step</tspan>
+    <tspan x="751" dy="17">breakdown of the mental calculation process. By breaking 20</tspan>
+    <tspan x="751" dy="17">into 2 and 10, it makes the math easy to follow and verify.</tspan>
+  </text>
+</svg>
