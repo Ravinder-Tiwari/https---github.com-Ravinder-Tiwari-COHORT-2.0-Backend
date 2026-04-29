@@ -1,5 +1,5 @@
 import {ChatMistralAI} from "@langchain/mistralai";
-import appConfig from "../config/config";
+import appConfig from "../config/config.js";
 
 export const getTitle = async (content) => {
     try {

@@ -1,5 +1,5 @@
 import jwt   from "jsonwebtoken"
-import appConfig from "../config/config"
+import appConfig from "../config/config.js"
 
 
 

@@ -46,6 +46,7 @@
 {
   "compilerOptions": {
     "rootDir": ".",
+    "allowJs": true,
     "outDir": "./dist",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
